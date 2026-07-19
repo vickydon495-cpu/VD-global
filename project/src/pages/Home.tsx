@@ -6,6 +6,7 @@ import { AuthorityFrameworkSection } from '../components/sections/AuthorityFrame
 import { Philosophy } from '../components/sections/Philosophy';
 import { WhyVdGlobal } from '../components/sections/WhyVdGlobal';
 import { Assessment } from '../components/sections/Assessment';
+import { KnowledgeHubPreview } from '../components/sections/KnowledgeHubPreview';
 import { FIRM } from '../../content/site';
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <AuthorityFrameworkSection />
       <Philosophy />
       <WhyVdGlobal />
+      <KnowledgeHubPreview />
       <Assessment />
     </>
   );
