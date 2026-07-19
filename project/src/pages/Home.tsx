@@ -7,6 +7,7 @@ import { Philosophy } from '../components/sections/Philosophy';
 import { WhyVdGlobal } from '../components/sections/WhyVdGlobal';
 import { Assessment } from '../components/sections/Assessment';
 import { KnowledgeHubPreview } from '../components/sections/KnowledgeHubPreview';
+import { Faq } from '../components/sections/Faq';
 import { FIRM } from '../../content/site';
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <Philosophy />
       <WhyVdGlobal />
       <KnowledgeHubPreview />
+      <Faq />
       <Assessment />
     </>
   );
